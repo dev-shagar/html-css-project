@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;900&display=swap');
+
+
+
+body{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*^^^^^^^^^^^REUSEABLE CSS START HERE^^^^^^^^^^^^^*/
+.section-padding{
+    padding:60px 0;
+}
+
+/*^^^^^^^^^^^REUSEABLE CSS END HERE^^^^^^^^^^^^^*/
+
+
+
+
+
+
+/*^^^^^^^^^^^HEADER AREA START HERE^^^^^^^^^^^^^*/
+header{
+    padding:0 0 20px 0;
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url('img/bg.jpg');
+    
+    background-size:cover;
+   background-position:center;
+   background-attachment: fixed;
+    
+}
+.header-top nav ul{
+    margin:0;
+    padding:0;
+}
+.header-top nav ul li{
+    list-style-type:none;
+    display:inline-block;
+}
+.header-top nav ul li a{
+    text-decoration:none;
+    display:block;
+    padding:10px 0;
+    color:#ffffff;
+    margin-right:10px;
+    font-size:16px;
+    border-top:3px solid transparent;
+}
+.header-top nav ul li a:hover{
+    border-top:3px solid green;
+    font-weight:700;
+}
+.logo{
+
+    font-size:40px;
+    color:white;
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+    font-weight:700;
+}
+
+
+.header-top form{
+    width:100%;
+    margin-top:15px;
+}
+.fas.fa-search {
+    margin: -28px;
+    font-size:14px;
+   
+}
+.header-top form input{
+    width:180px;
+    border-radius:20px;
+    border:none;
+    padding:5px 5px;
+    background:white;
+}
+
+.header-top form input:focus{
+    outline:none;
+}
+
+.header-middle{
+    
+    width:60%;
+    margin:210px auto;
+    text-align:center
+   
+
+}
+.header-middle h2{
+    font-size:55px;
+    color:white;
+    font-weight:700;
+    margin-bottom:30px;
+}
+.header-middle a{
+    text-decoration:none;
+    font-size:24px;
+    color:white;
+    background:#54d154;
+    padding:10px 40px;
+    border-radius:20px;
+    margin-top:30px;
+    transition:0.4s;
+  
+}
+
+.header-middle a:hover{
+    box-shadow:2px 2px 20px  black;
+}
+
+.header-bottom-btn{
+   width:145px;
+   background:white;
+   display:block;
+   margin:0 auto;
+   font-size:16px;
+   color:black;
+   text-decoration:none;
+   padding:3px 20px;;
+   border-radius:20px;
+   opacity:0.7;
+  
+}
+
+
+/*^^^^^^^^^^^HEADER AREA END HERE^^^^^^^^^^^^^*/
+
+
+
+/*^^^^^^^^^^^SERVICE AREA START HERE^^^^^^^^^^^^^*/
+.service-area-title h2{
+    font-size:22px;
+    color:#939292;
+    position:relative;
+}
+.service-area-title h2::after{
+    content:'' ;
+    position:absolute;
+    width:50px;
+    height:2px;
+    background:black;
+    left:50%;
+    top:30px;
+    margin-left:-25px;
+    opacity:0.7;
+  
+}
+.service-area-title p{
+    font-size:15px;
+    color:#b7b3b3;
+    margin-top:12px;
+}
+
+.single-service-area {
+    margin-top: 50px;
+    text-align:center;
+    transition:0.4s;
+    padding:33px 10px;
+    border-radius:6px;
+}
+.single-service-area:hover{
+    box-shadow:1px 1px 5px rgb(104, 101, 101,0.1);
+}
+
+
+
+.single-service-area img{
+  width:120px;
+  height:110px;
+  background:#e1f3e1;
+  padding:25px;
+  border-radius:20px;
+}
+
+.fab.fa-facebook-square{
+    width:120px;
+    font-size:75px;
+    padding:20px;
+    background:#e1f3e1;
+    border-radius:20px;
+    color:#54d154;
+}
+.single-service-area h2{
+    font-size:24px;
+    color:#828181;
+}
+.single-service-area p{
+    font-size:16px;
+    color:#828181;
+    width:328px;
+}
+.single-service-area a {
+    text-decoration: none;
+    background: #54d154;
+    padding: 5px 20px;  
+    color: white;
+    border:1px solid transparent;
+    border-radius:20px;
+}
+
+
+/*^^^^^^^^^^^SERVICE AREA END HERE^^^^^^^^^^^^^*/
+
+
+
+/*^^^^^^^^^^^OUR WORK AREA START HERE^^^^^^^^^^^^^*/
+
+.our-work-area{
+    background:#54d154;
+}
+.work-title h2 {
+    color:#207b20;
+}
+.work-title p{
+    color:#2b9b2b;
+}
+
+.service-area-title .work-title h2::after{
+    content:'' ;
+    position:absolute;
+    background:#207b20;
+}
+
+
+.work-area-button {
+    margin-bottom: 40px;
+    margin-top: 67px;
+    text-transform: capitalize;
+}
+
+.work-area-button ul{
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+.work-area-button ul li{
+  list-style-type:none;
+  display:inline-block;
+  text-align:center;
+}
+
+.work-area-button ul li a{
+    color:#64b564;
+    text-decoration:none;
+    border-right:1px solid black;
+}
+
+.work-area-button ul li a {
+    text-decoration: none;
+    margin-left:-4px;
+    background: white;
+    padding: 10px 20px;
+    font-size:16px;
+    transition:0.4s;
+    
+}
+
+.work-area-button ul li a:hover{
+    box-shadow:2px 2px 10px black;
+}
+
+
+
+
+
+.work-area-button ul li:last-child a {
+    border:none;
+}
+
+
+.work-area-button ul li:first-child a {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius:20px;
+}
+
+
+
+.work-area-button ul li:last-child a {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius:20px;
+  }
+
+.work-area-button ul li:hover a {
+      background:#2b9b2b;
+      color:white;
+  }
+
+
+  .single-photo-box{
+      width:20%;
+     float:left;
+     text-align:center;
+     transition:0.4s;
+  }
+
+  .single-photo-box:hover{
+    
+      transform:rotate(90deg);
+  }
+
+  .single-photo-box img{
+      width:90%;
+      margin-top:30px;
+     
+  }
+
+.work-bottom-button {
+    margin-top: 50px;
+    width:185px;
+    color:white;
+    background:#2b9b2b;
+}
+
+.work-bottom-button:hover{
+    background:#2b9b2b;
+}
+
+
+/*^^^^^^^^^^^OUR WORK AREA START HERE^^^^^^^^^^^^^*/
+
+
+/*^^^^^^^^^TESTIMONIALAREA START HERE^^^^^^^^^^^^^*/
+
+.testimonial-info p{
+    width:44%;
+    margin:0 auto;
+    text-align:center;
+    font-size:16px;
+    color:#5d5d5d;
+}
+
+.testimonial-info {
+    margin-top:70px;
+}
+
+.testimonial-image{
+    width:20%;
+    float:left;
+    text-align:center;
+    margin-left: 334px;
+}
+.testimonial-bottom{
+    width:50%;
+    margin:0px auto;
+    text-align:center;
+}
+
+.testimonial-bottom img{
+    width:50px;
+    height:50px;
+    border:1px solid black;
+    border-radius:50%;
+    padding:10px;
+    margin-top:20px;
+}
+.testimonial-bottom h2{
+    display: inline-block;
+    font-size:15px;
+    margin-bottom:0;
+}
+.testimonial-bottom p{
+    font-size:15px;
+    opacity:0.5;
+    margin-right:-115px;
+    margin-top:-21px;
+}
+
+   
+/*^^^^^^^^^^TESTIMONIAL AREA END HERE^^^^^^^^^^^^^*/
+   
+
+
+
+/*^^^^^^^^^^^CLIENT AREA START HERE^^^^^^^^^^^^^*/
+
+.client-section{
+    background:#f2f1f1;
+}
+.single-client-photo{
+    width:25%;
+    text-align:center;
+    transition:0.4s;
+}
+.single-client-photo:hover{
+    box-shadow:2px 2px 10px black;
+}
+
+
+
+.single-client-photo img{
+    width:147px;
+    
+    margin-top:22px;   
+}
+
+.client{
+    margin-top:80px;
+}
+
+.single-client-photo.love {
+    margin-top: -31px;
+}
+.single-client-photo.love2 {
+    margin-top: 15px;
+}
+.single-client-photo.love3 {
+    margin-top: 10px;
+}
+
+
+.client-button{
+    margin-top:60px;
+    background:#dddcdc;
+    transition:0.4s;
+}
+
+
+.client-button:hover{
+    box-shadow:2px 2px 10px black;
+    background:white;
+    color:black;
+
+}
+
+
+
+
+.header-bottom-btn.client-button {
+    width: 195px;
+    padding: 10px 39px;
+}
+/*^^^^^^^^^^^CLIENT AREA END HERE^^^^^^^^^^^^^*/
+
+
+
+
+
+/*^^^^^^^^^^^TEAM SECTION START HERE^^^^^^^^^^^^^*/
+.team-section {
+    background:#54d154;
+    transition:0.4;
+}
+.team-section:hover{
+    box-shadow:2px 2px 10px red;
+}
+
+
+.team-header h2 {
+    color:#207b20;
+}
+
+.team-header p {
+    color:#207b20;
+    font-size:15px;
+}
+
+
+.single-team-box {
+    margin-top: 40px;
+    text-align:center;
+}
+
+.single-team-box h2{
+    margin-top:120px;
+    font-size:16px;
+    color:white;
+    position:relative;
+}
+
+.single-team-box h2:before{
+    position:absolute;
+    content:'';
+    width:100px;
+    height:3px;
+    background:black;
+    transform:rotate(90deg);
+    top:-60px;
+    left:34px;
+
+}
+
+.social-link {
+    color: green;
+    background: white;
+    border-radius: 30px;
+    width: 114px;
+    padding: 5px 34px;
+    font-size: 14px;
+    margin:0 auto;
+}
+.social-link .fab:nth-child(1){
+    color:red;
+}
+.social-link .fab:nth-child(2){
+    color:blue;
+}
+.social-link .fab:nth-child(3){
+    color:skyblue;
+}
+
+
+
+/*^^^^^^^^^^^TEAM SECTION END HERE^^^^^^^^^^^^^*/
+
+
+
+
+
+/*^^^^^^^WORK WITH US SECTION START HERE^^^^^^^*/
+.work-with-us-section{
+    background:#3eba3e;
+    padding:30px 0;
+}
+.work-button {
+    color:white;
+    text-decoration:none;
+    width:185px;
+    margin:auto;
+    display:block;
+    font-size:18px;
+    background:#54d154;
+    padding:10px 30px;
+    border-radius:20px;
+    transition: 0.4s;
+
+}
+
+.work-button:hover{
+    color:white;
+    box-shadow: 2px 2px  20px black;
+   
+}
+
+
+/*^^^^^^^^WORK WITH US SECTION START HERE^^^^^^^^^*/
+
+/*^^^^^^^^^FOOTER SECTION START HERE^^^^^^^^^^^^*/
+footer{
+    background:#333333;
+    color:white;
+    text-align:center;
+}
+.about-section p{
+    color:#aeaeae;
+    text-align:left;
+}
+
+.about-section-title h2{
+    font-size:19px;
+    text-transform: uppercase;
+    font-weight:300;
+    position:relative;
+    margin-bottom: 30px;
+}
+
+.about-section-title h2::before{
+   position:absolute;
+   content:'';
+   width:50px;
+   height:3px;
+   background:white;
+   top:25px;
+   left:150px;
+}
+
+
+.single-recent-post{
+    text-align:left;
+    padding-left:50px;
+    margin-top:30px;
+}
+
+.single-recent-post p{
+    font-size:15px;
+    float:left;
+    width:80%;
+    margin-left:10px;
+    margin-bottom:0;
+    margin-top:-5px;
+}
+.single-recent-post img{
+    width:50px;
+    height:50px;
+    float:left;
+}
+.single-recent-post span{
+    margin-left:10px;
+}
+
+.single-recent-post .one{
+    background:#54d154;
+    padding:2px 5px;
+    border-radius:5px;
+}
+
+.single-recent-post .two{
+    background:#ffba00;
+    padding:2px 5px;
+    border-radius:5px;
+}
+
+
+.single-recent-post .three{
+    background:#089dea;
+    padding:2px 5px;
+    border-radius:5px;
+}
+
+
+.single-recent-post .four{
+    background:#f34d04;
+    padding:2px 5px;
+    border-radius:5px;
+    
+}
+
+
+.single-recent-post .five{
+    background:#032167;
+    padding:2px 5px;
+    border-radius:5px;
+}
+.contact-info{
+    margin-bottom:30px;
+}
+
+.contact-info p{
+    font-size:14px;
+    margin-bottom:0;
+    color:#aeaeae;
+}
+
+
+form input , textarea{
+    width:100%;
+    padding: 5px 10px;
+
+    background:#444444;
+    border:none;
+    margin-bottom:5px;
+    color:#6a6a6a;
+   
+}
+.send{
+    background:#2b9b2b;
+    color:white;
+}
+
+form input, textarea:focus{
+    outline:none;
+}
+
+form textarea{
+    height:120px;
+   
+}
+
+
+/*^^^^^^^^^^FOOTER SECTION START HERE^^^^^^^^^^^^*/
